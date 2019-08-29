@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: orange;
+  }
+  
+  body * {
+    text-align: center;
+  }
+  
+  .banner {
+    text-decoration: underline;
+    margin: 50px;
+  }
+  
+  .start-button-div {
+    margin: 50px;
+  }
+  
+  .start-quiz {
+    font-size: 20px;
+    height: 35px;
+    width: 150px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  
