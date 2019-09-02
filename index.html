@@ -1,32 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Test your movie knowledge</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="banner"><h1 class="js-banner-text">So you think you know movies, huh?</h1></header>
-  <section class="introduction">
-    <p class="explanation js-explanation"><h2>Put your late-night Netflix binging to good use and show off your movie knowledge!<br>
-        We'll show you a short movie clip and provide you multiple choice selections to choose from.<br>
-        Get all 10 correct and earn bragging rights among your friends!</h2>
-    </p>
-    <div class="start-button-div js-start-button-div">
-        <button class="start-quiz"><span>Let's Go!</span></button>
-    </div>
-  </section>
-  <form name="multiple-choice" class="answers hidden">
-    <input type="radio"></input>
-    <label class="labels js-label-1">Answer 1</label><br>
-    <input type="radio"></input>
-    <label class="labels js-label-2">Answer 2</label><br>
-    <input type="radio"></input>
-    <label class="labels js-label-3">Answer 3</label><br>
-    <input type="radio"></input>
-    <label class="labels js-label-4">Answer 4</label>
-  </form>
-</body>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header><h1>Quiz Title</h1></header>
+    <main>
+      <section class="hidden score">
+        <div><span>Question x/8</span><span>Score: xx%</span></div>
+      </section>
+      <section class="begin-quiz">
+        <p>Quiz description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <button><span>Begin Quiz</span></button>
+      </section>
+      <section class="hidden gifs">
+        <div><img src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-260nw-1037719192.jpg" alt=""></div>
+      </section>
+      <section class="hidden multiple-choice">
+        <button class="answers js-answer1"><span>Choice 1</span></button>
+        <button class="answers js-answer2"><span>Choice 2</span></button>
+        <button class="answers js-answer3"><span>Choice 3</span></button>
+        <button class="answers js-answer4"><span>Choice 4</span></button>
+      </section>
+      <section class="hidden next-button">
+        <button class="next">
+          <span>Next Question</span>
+        </button>
+      </section>
+      <section class="hidden retake-quiz">
+        <span>Performance Message</span>
+        <button class="retake">
+          <span>Retake Quiz</span>
+        </button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
