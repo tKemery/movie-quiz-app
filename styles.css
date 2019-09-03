@@ -26,7 +26,7 @@ section {
 section.score span {
   display: inline-block;
   max-width: 100px;
-  margin: 4px;
+  margin: 1px;
   background-color: grey;
 }
 
@@ -44,9 +44,6 @@ span {
   display: none;
 }
 
-//new css
-
-
 div {
   text-align: center;
 }
@@ -62,3 +59,4 @@ img {
   margin-bottom: 10px;
   max-width: 600px;
 }
+
