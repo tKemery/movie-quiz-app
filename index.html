@@ -11,7 +11,7 @@
       crossorigin="anonymous"></script>
   </head>
   <body>
-    <header><h1>So you think you know movies?</h1></header>
+    <header><h1 class="landing-title">So you think you know movies?</h1></header>
     <main>
       <section class="hidden score js-score">
         <div>
@@ -20,7 +20,11 @@
         </div>
       </section>
       <section class="begin-quiz js-begin-quiz">
-        <p>Quiz description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Like movies? Like showing up your friends?
+          Don't let all those countless hours of Netflix binges go to waste!
+          Show off the wealth of movie knowledge you've ascertained in this short quiz.
+          We'll show you a movie clip and give you some multiple-choice answers to choose from.<br><br>
+          Good luck!</p><br><br>
         <button><span>Begin Quiz</span></button>
       </section>
       <section class="hidden gifs js-gifs">
@@ -34,17 +38,19 @@
         <button class="answers js-answer4"><span class="js-answer-span4">Boondock Saints</span></button>
       </section>
       <section class="hidden next-button js-next-button">
+        <p class="siOrNo js-siOrNo"></p>
+        <p class="description js-description"></p>
         <button class="js-next">
           <span>Next Question</span>
         </button>
       </section>
       <section class="hidden retake-quiz js-retake-quiz">
-        <span>Performance Message</span>
+        <span class="performance-message js-performance-message"></span>
         <button class="retake js-retake">
           <span>Retake Quiz</span>
         </button>
       </section>
     </main>
-    <script src="index.js"></script>
+    <script class="hidden" src="index.js"></script>
   </body>
 </html>
