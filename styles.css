@@ -64,7 +64,7 @@ button {
   border-radius: 5px;
 }
 
-button:hover {
+button:hover, button:focus {
   background: orange;
 }
 
