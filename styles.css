@@ -3,7 +3,7 @@
 }
 
 html { 
-  background: url('https://film-grab.com/wp-content/uploads/photo-gallery/23%20(507).jpg?bwg=1547222424') no-repeat center center fixed; 
+  background: url('background/cinema.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -28,7 +28,9 @@ body * {
 }
 
 .begin-quiz {
-  font-size: 25px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700px;
   text-shadow:
   -1px -1px 0 orange,
   1px -1px 0 orange,
@@ -95,13 +97,14 @@ img {
 }
 
 .siOrNo, .description, .performance-message {
+  font-size: 16px;
+  line-height: 1.3;
   text-shadow:
     -1px -1px 0 orange,
     1px -1px 0 orange,
     -1px 1px 0 orange,
     1px 1px 0 orange;
   color: white;
-  font-size: 25px;
   font-weight: 700;
 }
 
